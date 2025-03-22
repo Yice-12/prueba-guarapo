@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render button and click 1`] = `
+<DocumentFragment>
+  <div
+    class="button"
+  >
+    <div
+      class="button__content"
+    >
+      <button>
+        LOAD MORE
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders button text 1`] = `
+<DocumentFragment>
+  <div
+    class="button"
+  >
+    <div
+      class="button__content"
+    >
+      <button>
+        LOAD MORE
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

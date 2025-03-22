@@ -1,0 +1,12 @@
+@use "tailwindcss";
+
+.footer {
+  @apply w-full;
+  &__content {
+    @apply w-full h-[60px] flex justify-center items-center;
+    box-shadow: -2px 0 8px 2px rgba(0, 0, 0, 0.1);
+    & > p {
+      @apply text-lg font-bold text-[#212121];
+    }
+  }
+}

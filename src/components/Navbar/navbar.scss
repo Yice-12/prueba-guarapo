@@ -1,0 +1,15 @@
+@use "tailwindcss";
+.nabvar {
+  @apply h-[60px] flex w-full justify-center;
+  box-shadow: -2px 0 8px 2px rgba(0, 0, 0, 0.1);
+
+  &__content {
+    @apply flex justify-between items-center w-full max-w-[1020px];
+    & > ul {
+      @apply flex gap-6;
+      & > li {
+        @apply text-lg font-bold;
+      }
+    }
+  }
+}

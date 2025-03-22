@@ -1,0 +1,15 @@
+@use "tailwindcss";
+
+.input {
+  &__content {
+    @apply relative w-60 h-[56px];
+
+    & > img {
+      @apply absolute left-[19px] top-4;
+    }
+    & > input {
+      @apply pl-14 h-full pr-4 rounded-lg text-base font-normal text-black/50 w-full;
+      border: solid 1px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

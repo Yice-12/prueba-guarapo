@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Footer 1`] = `
+<DocumentFragment>
+  <div
+    class="footer"
+  >
+    <div
+      class="footer__content"
+    >
+      <p>
+        Make with ❤️ for the MobProgramming team
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

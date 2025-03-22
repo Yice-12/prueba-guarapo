@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Navbar 1`] = `
+<DocumentFragment>
+  <div
+    class="nabvar"
+  >
+    <div
+      class="nabvar__content"
+    >
+      <img
+        alt="logoBlack"
+        src="[object Object]"
+      />
+      <ul>
+        <li>
+          Characters
+        </li>
+        <li>
+          Locations
+        </li>
+        <li>
+          Episodes
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

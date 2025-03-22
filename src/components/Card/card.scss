@@ -1,0 +1,22 @@
+@use "tailwindcss";
+
+.card {
+  @apply w-[240px] h-[244px] rounded overflow-hidden cursor-pointer;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12),
+    0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+  &__content {
+    & > img {
+      @apply w-[240px] h-[168px];
+    }
+  }
+  &__description {
+    @apply flex flex-col py-3 px-4;
+    & > h1 {
+      @apply text-xl font-medium leading-normal;
+    }
+    & > p {
+      @apply text-sm text-black/60;
+    }
+  }
+}

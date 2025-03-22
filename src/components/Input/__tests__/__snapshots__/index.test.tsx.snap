@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Input 1`] = `
+<DocumentFragment>
+  <div
+    class="input"
+  >
+    <div
+      class="input__content"
+    >
+      <img
+        alt="loupe"
+        src="[object Object]"
+      />
+      <input
+        placeholder="Filter by name..."
+        type="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`render Input and change 1`] = `
+<DocumentFragment>
+  <div
+    class="input"
+  >
+    <div
+      class="input__content"
+    >
+      <img
+        alt="loupe"
+        src="[object Object]"
+      />
+      <input
+        placeholder="Filter by name..."
+        type="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

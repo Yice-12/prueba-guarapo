@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render CharacterView 1`] = `
+<DocumentFragment>
+  <div
+    class="characterView"
+  >
+    <div
+      class="characterView__content"
+    >
+      <div
+        class="characterView__arrowBack"
+      >
+        <img
+          alt="arrowBack"
+          src="[object Object]"
+        />
+        <p>
+          GO BACK
+        </p>
+      </div>
+      <div
+        class="characterView__profile"
+      >
+        <img
+          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        />
+        <h1>
+          Rick Sanchez
+        </h1>
+      </div>
+      <div
+        class="characterView__container"
+      >
+        <div
+          class="characterView__information"
+        >
+          <h2>
+            Informations
+          </h2>
+          <ul
+            class="characterView__information-list"
+          >
+            <li>
+              <p>
+                Gender
+              </p>
+              <span>
+                Male
+              </span>
+            </li>
+            <li>
+              <p>
+                Status
+              </p>
+              <span>
+                Alive
+              </span>
+            </li>
+            <li>
+              <p>
+                Specie
+              </p>
+              <span>
+                Human
+              </span>
+            </li>
+            <li>
+              <p>
+                Origin
+              </p>
+              <span>
+                Earth (C-137)
+              </span>
+            </li>
+            <li>
+              <p>
+                Type
+              </p>
+              <span />
+            </li>
+            <li>
+              <p>
+                Location
+              </p>
+              <span>
+                Citadel of Ricks
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="characterView__episodes"
+        >
+          <h2>
+            Episodes
+          </h2>
+          <ul
+            class="characterView__episodes-list"
+          >
+            <li>
+              <p>
+                S01E01
+              </p>
+              <span>
+                Pilot
+              </span>
+              <span>
+                December 2, 2013
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`render CharacterView and back 1`] = `
+<DocumentFragment>
+  <div
+    class="characterView"
+  >
+    <div
+      class="characterView__content"
+    >
+      <div
+        class="characterView__arrowBack"
+      >
+        <img
+          alt="arrowBack"
+          src="[object Object]"
+        />
+        <p>
+          GO BACK
+        </p>
+      </div>
+      <div
+        class="characterView__profile"
+      >
+        <img
+          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        />
+        <h1>
+          Rick Sanchez
+        </h1>
+      </div>
+      <div
+        class="characterView__container"
+      >
+        <div
+          class="characterView__information"
+        >
+          <h2>
+            Informations
+          </h2>
+          <ul
+            class="characterView__information-list"
+          >
+            <li>
+              <p>
+                Gender
+              </p>
+              <span>
+                Male
+              </span>
+            </li>
+            <li>
+              <p>
+                Status
+              </p>
+              <span>
+                Alive
+              </span>
+            </li>
+            <li>
+              <p>
+                Specie
+              </p>
+              <span>
+                Human
+              </span>
+            </li>
+            <li>
+              <p>
+                Origin
+              </p>
+              <span>
+                Earth (C-137)
+              </span>
+            </li>
+            <li>
+              <p>
+                Type
+              </p>
+              <span />
+            </li>
+            <li>
+              <p>
+                Location
+              </p>
+              <span>
+                Citadel of Ricks
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="characterView__episodes"
+        >
+          <h2>
+            Episodes
+          </h2>
+          <ul
+            class="characterView__episodes-list"
+          >
+            <li>
+              <p>
+                S01E01
+              </p>
+              <span>
+                Pilot
+              </span>
+              <span>
+                December 2, 2013
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

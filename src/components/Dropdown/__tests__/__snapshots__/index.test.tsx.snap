@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Dropdown 1`] = `
+<DocumentFragment>
+  <div
+    class="dropdown"
+  >
+    <div
+      class="dropdown__content"
+    >
+      <select
+        name="test"
+      >
+        <option
+          hidden=""
+          value=""
+        >
+          test
+        </option>
+        <option>
+          test 1
+        </option>
+      </select>
+      <div
+        class="dropdown__img-arrowDropdown"
+      >
+        <img
+          alt="arrowDropdown"
+          src="[object Object]"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

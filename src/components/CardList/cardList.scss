@@ -1,0 +1,7 @@
+@use "tailwindcss";
+
+.cardList {
+  &__content {
+    @apply flex gap-5 flex-wrap;
+  }
+}

@@ -1,0 +1,15 @@
+@use "tailwindcss";
+
+.dropdown {
+  &__content {
+    @apply inline-block relative w-60 h-[56px];
+
+    & > select {
+      @apply block appearance-none w-full h-full px-4 rounded-lg text-base font-normal text-black/60 cursor-pointer;
+      border: solid 1px rgba(0, 0, 0, 0.5);
+    }
+  }
+  &__img-arrowDropdown {
+    @apply absolute inset-y-0 right-3.5 flex items-center pointer-events-none;
+  }
+}
